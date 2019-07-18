@@ -1,0 +1,15 @@
+body {
+  background-color: #202020;
+}
+
+#meet {
+	background-image: url("https://steamuserimages-a.akamaihd.net/ugc/906820613455628119/7C6ECCF699397B15C127F5A3C3F98EDE89AAD0C2/");
+	padding: 40px;
+	height: 35vh;
+	width: 70vw;
+	color: white;
+	text-align: center;
+	margin: auto;
+	margin-top: 25vh;
+	font-size: 30px;
+}
