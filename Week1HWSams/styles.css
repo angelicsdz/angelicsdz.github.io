@@ -1,0 +1,54 @@
+body {
+	background: gray;
+	margin: 0px;
+	font-family: Arial;
+}
+.header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 0.016px;
+	position: static;
+}
+
+.block {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	text-align: center;
+	position: absolute;
+	margin-left: 20px;
+}
+
+.firstblock {
+	background: silver;
+	padding: 20px;
+	padding-top: 20px;
+	margin: 20px;
+	margin-top: 210px;
+	margin-bottom: 60px
+}
+.secondblock {
+	background: silver;
+	padding: 20px;
+	padding-top: 17px;
+	margin: 20px;
+	margin-bottom: 60px
+}
+.thirdblock {
+	background: silver;
+	padding: 20px;
+	padding-top: 17px;
+	margin: 20px;
+	margin-bottom: 60px
+}
+.fourthblock {
+	background: silver;
+	padding: 20px;
+	padding-top: 17px;
+	margin: 20px;
+	margin-bottom: 60px
+}
+
+a:hover {
+	color: blue;
+}
