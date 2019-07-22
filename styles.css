@@ -13,6 +13,7 @@ body {
 	align-items: center;
   	justify-content: center;
   	transition: transform .5s;
+	/* This code specifies the type of transformation over .5 seconds*/
   	min-width: 500px;
   	max-width: 1000px;
   	display: block;
@@ -23,6 +24,7 @@ body {
 
 .therealwrap:hover {
 	transform: scale(1.03);
+	/* This is defining the scale of how much larger the element gets when the user hovers over it.*/
 }
 #meet {
 	padding: 40px;
@@ -41,6 +43,7 @@ body {
   0 0 0.1vw 0.4vw #fff7f7,
   0 0 0.4vw 0.6vw #e97272,
   0 0   4vw 0.4vw #e50b0b,
+  /* The overall box-shadow values are the h-offest, v-offset, the blur, the spread, and the color. H-offset and the v-offset defines whether the shadow is to the right, to the left, above, or below the box. The blur specifies how defined the blur is. The spread deals with the size of the shadow, and the color is self-explanatory - deals with the color of the shadow. Outset and inset define whether the shadow inner or outer of the element. */
 
   inset 0 0 1.5vw 0.4vw #e50b0b,
   inset 0 0 0.4vw 0.2vw #e97272,
@@ -144,7 +147,7 @@ body {
   .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
   .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
   .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
-  /* I need help with understanding mah code */
+  /* The rows define the h-shadow, v-shadow, colors used, and the blur-radius */
   border-radius: 2px;
 }
 
